@@ -6,6 +6,10 @@
   <span align="center">🛒 Simple e-commerce SPA made with Yew</span>
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rust-lang-ve/rust-mart/main/docs/image.png" width="550" height="375" />
+</div>
+
 ## Motivation
 
 Follow [Sheshbabu Chinnakonda](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/)'s post
