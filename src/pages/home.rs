@@ -105,12 +105,18 @@ impl Component for Home {
                   <div>
                     <img src={&product.image}/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div>{"id: "}{&product.id}</div>
                     <div>{&product.name}</div>
                     <div>{&product.description}</div>
 =======
                     <div>{&product.name}</div>
 >>>>>>> Fix: files format
+=======
+                    <div>{"id: "}{&product.id}</div>
+                    <div>{&product.name}</div>
+                    <div>{&product.description}</div>
+>>>>>>> Fix: Showing all fields
                     <div>{"$"}{&product.price}</div>
                     <button onclick=self.link.callback(move |_| Msg::AddToCart(product_id))>{"Add to Cart"}</button>
                   </div>
