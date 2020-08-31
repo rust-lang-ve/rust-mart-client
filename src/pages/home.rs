@@ -62,7 +62,9 @@ impl Component for Home {
                 html! {
                   <div>
                     <img src={&product.image}/>
+                    <div>{"id: "}{&product.id}</div>
                     <div>{&product.name}</div>
+                    <div>{&product.description}</div>
                     <div>{"$"}{&product.price}</div>
                   </div>
                 }
