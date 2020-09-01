@@ -1,4 +1,3 @@
-// src/lib.rs
 mod pages;
 
 use pages::Home;

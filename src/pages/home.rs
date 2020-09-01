@@ -1,6 +1,5 @@
 use yew::prelude::*;
 
-// Hold product details
 struct Product {
     id: i32,
     name: String,
@@ -9,7 +8,6 @@ struct Product {
     price: f64,
 }
 
-// Component state
 struct State {
     products: Vec<Product>,
 }
